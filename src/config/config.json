@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "zxcvbnm123",
+    "database": "unitesting",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "zxcvbnm123",
+    "database": "unitesting",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "zxcvbnm123",
+    "database": "unitesting",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

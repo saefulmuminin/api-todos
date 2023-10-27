@@ -1,0 +1,16 @@
+version: '3'
+services:
+  postgres:
+    container_name: api-todos
+    image: saefulmuminin123/test-api-todos:1.0
+    ports:
+      - "3000:27017"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: zxcvbnm123
+      POSTGRES_DB: unitesting
+    volumes:
+      - postgres_data:/src/app
+
+volumes:
+  postgres_data:
